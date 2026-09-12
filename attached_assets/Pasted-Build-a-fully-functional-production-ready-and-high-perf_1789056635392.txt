@@ -1,0 +1,79 @@
+Build a fully functional, production-ready, and high-performance E-Commerce Web Application for a luxury perfume brand called "AURA SCENT".
+
+1. Tech Stack & Architecture
+Framework: Next.js (App Router) or React with Vite (TypeScript).
+
+Styling: Tailwind CSS with a luxury Dark/Neutral theme (Deep Obsidian Black #0B0C10, Soft Gold/Champagne #D4AF37, Pure White, and Off-White #F4F4F4).
+
+Animations: Framer Motion for smooth, interactive micro-interactions, layout transitions, float effects for perfume bottles, and entrance animations.
+
+State Management & Persistence: Zustand or React Context with localStorage for cart and wishlist handling.
+
+Icons: Lucide React icons.
+
+2. Core Features & Pages
+A. Header & Navigation
+Glassmorphism sticky header with blur effect.
+
+Navigation links: Home, Shop, Collections, Fragrance Finder (Quiz), About Us, Contact.
+
+Dynamic Search Bar with live preview/filtering.
+
+Quick action icons: Search, Wishlist (with badge count), Cart (with dynamic counter and slide-over mini-cart), Dark/Light toggle (default to Dark Luxury mode).
+
+B. Hero Section (Home)
+High-impact visual layout featuring a highlighted luxury perfume bottle with subtle floating animation.
+
+Compelling typography headline, subheading, and dual Call-to-Action buttons ("Explore Collection", "Take Fragrance Quiz").
+
+Trust badges (e.g., 100% Authentic, Free Express Shipping, Premium Packaging).
+
+C. Product Catalog & Filtering (Shop)
+Filter Sidebar / Dropdown: Filter by Scent Family (Woody, Floral, Oriental, Fresh, Citrus), Gender (Men, Women, Unisex), Volume (50ml, 100ml), and Price Range.
+
+Sorting options: Price Low to High, Price High to Low, Best Sellers, New Arrivals.
+
+Interactive Product Cards:
+
+High-quality image with hover zoom/flip effect to secondary image.
+
+Scent Notes preview tag (Top, Heart, Base notes).
+
+Price, Rating (stars), "Add to Cart" button (with instant loading feedback animation), and Quick View modal trigger.
+
+D. Interactive Fragrance Finder Quiz
+A 3-step interactive questionnaire guiding users to their ideal perfume based on preference (Occasion, Preferred Season, Intensity).
+
+Instant personalized product recommendations at the end with an "Add Recommended to Cart" option.
+
+E. Product Details Page (PDP) / Modal
+Multi-image gallery with thumbnail selection.
+
+Detailed Scent Pyramid breakdown (Top Notes, Heart Notes, Base Notes) displayed visually with icons or badges.
+
+Bottle size selector (e.g., 50ml, 100ml) updating price dynamically.
+
+Interactive Quantity Selector & Direct "Buy Now" checkout button.
+
+Customer Reviews section with average rating summary, verified buyer tags, and a review submission form.
+
+F. Shopping Cart & Mini-Cart
+Slide-over drawer for quick cart updates without page reload.
+
+Full Cart page with quantity adjustments, item removal, promo code input, and shipping calculation preview.
+
+G. Checkout Process (UI Simulation)
+Clean, multi-step or single-page checkout UI.
+
+Address form with validation, shipping method selection, and mock payment method selection (Credit Card, Apple Pay, Cash on Delivery).
+
+Order Confirmation screen with order summary and animated success checkmark.
+
+3. UX/UI & Aesthetic Standards
+Design Vibe: Premium, modern, elegant, and minimal.
+
+Micro-interactions: Smooth hover effects on buttons, interactive active states, ripple effects, and subtle entrance animations using Framer Motion.
+
+Responsive Layout: 100% mobile-friendly and optimized for desktop, tablet, and mobile breakpoints.
+
+Dummy Data: Include a rich set of 8–12 luxury perfume products with realistic names (e.g., "Oud Royale", "Velvet Rose", "Amber Horizon"), detailed fragrance notes, descriptions, ratings, prices, and high-quality Unsplash image URLs.
